@@ -95,7 +95,7 @@ export default function AppFunctional(props) {
     axios
       .post(URL, submission)
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         setMessage(res.data.message)
         setEmail(initialEmail)
       })
